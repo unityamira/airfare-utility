@@ -1,0 +1,7 @@
+﻿came_from,going_to,col_ignore1,col_ignore2,round_trip
+alias1,alias1,abc,bob,0
+alias  2,hdbfgla,cba,alice,1
+1 alias,alias2,bca,alice,0
+alias3,alias1,cab,bob,0
+alias_4,alias3,bac,bob,1
+alias    2,"alias, 4",acb,alice,1

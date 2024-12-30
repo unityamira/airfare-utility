@@ -1,0 +1,7 @@
+,came_from,going_to,col_ignore1,col_ignore2,round_trip,origination_code,orig_lat,orig_long,destination code,dest_lat,dest_long
+0,alias1,alias1,abc,bob,0,ALI1,37.720085,-122.221184,ALI1,37.720085,-122.221184
+1,alias  2,hdbfgla,cba,alice,1,ALI2,34.056,-117.600998,ALI2,34.056,-117.600998
+2,1 alias,alias2,bca,alice,0,ALI1,37.720085,-122.221184,ALI2,34.056,-117.600998
+3,alias3,alias1,cab,bob,0,ALI3,33.942501,-118.407997,ALI1,37.720085,-122.221184
+4,alias_4,alias3,bac,bob,1,ALI4,41.9786,-87.9048,ALI3,33.942501,-118.407997
+5,alias    2,"alias, 4",acb,alice,1,ALI2,34.056,-117.600998,ALI4,41.9786,-87.9048

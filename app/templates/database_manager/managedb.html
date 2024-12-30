@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+
+{% block header %}
+  <h1>{% block title %}Admin Only{% endblock %}</h1>
+{% endblock %}
+
+{% block content %}
+
+  <p> This is an admin only page for keeping the database up to date 
+  </p>
+
+  <form method="post" enctype="multipart/form-data">
+    <label for="alias_change">Upload alias csv to build db from must contain alias, iata_code to be accepted by schema. iata_codes must be in the geocoordinates table</label>
+    <input type="file", name="alias_change" id="corrected">
+
+    <label for="geocoordinate_change">Upload geocoordinate csv to build db from must iata_code, latitude, longitude to be accepted by schema</label>
+    <input type="file", name="geocoordinate_change" id="corrected">
+
+    <input type="submit" value="Upload corrections">
+  </form>
+
+
+
+{% endblock %}

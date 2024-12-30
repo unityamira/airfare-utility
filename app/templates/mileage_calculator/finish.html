@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block header %}
+  <h1>{% block title %}All Done!{% endblock %}</h1>
+{% endblock %}
+
+{% block content %}
+  <p> Here is your final spreadsheet, thanks!</p>
+  <a href="{{ url_for('static', filename='final_data.csv' )}}" download="w3logo"> download </a>
+{% endblock %}

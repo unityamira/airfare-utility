@@ -1,0 +1,7 @@
+,came_from,going_to,col_ignore1,col_ignore2,round_trip,one_way_distance(miles)
+0,alias1,alias1,abc,bob,0,0.0
+1,alias  2,hdbfgla,cba,alice,1,0.0
+2,1 alias,alias2,bca,alice,0,937.0860125458082
+3,alias3,alias1,cab,bob,0,873.3380963232776
+4,alias_4,alias3,bac,bob,1,4509.569246334604
+5,alias    2,"alias, 4",acb,alice,1,4394.0562924154065

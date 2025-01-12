@@ -7,8 +7,11 @@
 {% block content %}
   <form method="post" enctype="multipart/form-data">
 
-    <label for="startfle">Upload Airfare File</label>
-    <input type="file", name="startfile" id="startfile" accept=".csv" required>
+    <div class="file-upload">
+      <label for="startfle">Upload Airfare File</label>
+      <input type="file" name="startfile" id="startfile" accept=".csv" class="file" required>
+    </div>
+    
 
     <label for="aliases">Upload Alias File --temporary feature</label>
     <input type="file", name="aliases" id="aliases" accept=".csv" required>
@@ -21,4 +24,5 @@
 
     <input type="submit" value="Submit">
   </form>
+ 
 {% endblock %}
